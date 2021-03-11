@@ -1,7 +1,67 @@
+@import '_reset';
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/**
+* Variables
+*/
+
+// Colors
+$darkCyan: hsl(185, 75%, 39%);
+$darkDesaturatedBlue: hsl(229, 23%, 23%);
+$darkGrayishBlue: hsl(227, 10%, 46%);
+$darkGray: hsl(0, 0%, 59%);
+
+// Font
+$fontSize: 18px;
+$fontFamily: 'Kumbh Sans', sans-serif;
+
+/**
+* Base
+*/
+
+body {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+}
+
+.background {
+  background-color: $darkCyan;
+  background-image: url('/images/bg-pattern-top.svg'),
+    url('/images/bg-pattern-bottom.svg');
+  background-size: 20%, 20%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
+}
+
+.container {
+  margin: 1.5rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  height: 20rem;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-rows: 2fr 2fr 1fr;
+  &-pattern {
+    background-image: url('/images/bg-pattern-card.svg');
+    border-radius: 15px 15px 0 0;
+  }
+}
+
+/**
+* FEM
+*/
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
