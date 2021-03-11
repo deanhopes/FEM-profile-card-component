@@ -186,6 +186,16 @@ body {
       grid-template-rows: 2fr 2fr 1fr;
 }
 
+.card-red-circle {
+  position: absolute;
+  top: 271px;
+  right: 132px;
+  width: 110px;
+  height: 110px;
+  background: red;
+  border-radius: 50%;
+}
+
 .card-info {
   padding-top: 4.2rem;
   -ms-grid-row: 2;
