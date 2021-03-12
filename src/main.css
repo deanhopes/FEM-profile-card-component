@@ -154,6 +154,16 @@ body {
   background-position: top -209px left -240px, bottom -140px right -250px;
 }
 
+@media (min-width: 869px) {
+  .background {
+    background-color: #19a2ae;
+    background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+    background-size: 70%, 70%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -449px left -320px, bottom -610px right -250px;
+  }
+}
+
 .container {
   margin: 1.5rem;
   height: 100vh;
@@ -267,7 +277,7 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 349px;
+  max-width: 350px;
   width: 100%;
 }
 
