@@ -113,8 +113,9 @@ img {
   border-radius: 100%;
   margin: 1rem auto;
   position: absolute;
-  top: 262px;
-  left: 140px;
+  position: relative;
+  top: -9px;
+  left: 7px;
 }
 
 #followers {
