@@ -50,17 +50,17 @@ body {
   border-radius: 15px 15px 0 0;
   background-color: white;
   height: 20rem;
-  width: 80%;
+  width: 100%;
   border-radius: 1rem;
   padding: 1rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2fr 2fr 1fr;
-  &-red-circle {
+  &-white-circle {
     position: relative;
     width: 110px;
     height: 110px;
-    background: red;
+    background: white;
     border-radius: 50%;
     justify-self: center;
     top: 66px;
@@ -116,6 +116,12 @@ img {
   position: relative;
   top: -9px;
   left: 7px;
+}
+
+section {
+  display: flex;
+  max-width: 349px;
+  width: 100%;
 }
 
 #followers {
