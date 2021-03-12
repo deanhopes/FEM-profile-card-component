@@ -29,10 +29,9 @@ body {
   background-color: $darkCyan;
   background-image: url('/images/bg-pattern-top.svg'),
     url('/images/bg-pattern-bottom.svg');
-  background-size: 20%, 20%;
+  background-size: 120%, 110%;
   background-repeat: no-repeat, no-repeat;
-  background-position: top left, bottom right;
-  max-height: 100px;
+  background-position: top -209px left -240px, bottom -80px right -190px;
 }
 
 .container {
@@ -73,6 +72,7 @@ body {
     display: flex;
     justify-content: space-around;
     grid-row-start: 3;
+    margin: 0 1rem;
     &-span {
       font-size: 10px;
       letter-spacing: 1.5px;
@@ -136,12 +136,18 @@ section {
   align-self: center;
   justify-self: center;
   text-align: center;
+  padding-right: 1rem;
 }
 #photos {
   grid-column-start: 3;
   align-self: center;
   justify-self: center;
   text-align: center;
+}
+
+#age {
+  font-weight: 400;
+  color: #6b7082;
 }
 
 /**

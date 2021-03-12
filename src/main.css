@@ -149,10 +149,9 @@ body {
 .background {
   background-color: #19a2ae;
   background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
-  background-size: 20%, 20%;
+  background-size: 120%, 110%;
   background-repeat: no-repeat, no-repeat;
-  background-position: top left, bottom right;
-  max-height: 100px;
+  background-position: top -209px left -240px, bottom -80px right -190px;
 }
 
 .container {
@@ -212,6 +211,7 @@ body {
       justify-content: space-around;
   -ms-grid-row: 3;
       grid-row-start: 3;
+  margin: 0 1rem;
 }
 
 .card-stats-span {
@@ -291,6 +291,7 @@ section {
   -ms-grid-column-align: center;
       justify-self: center;
   text-align: center;
+  padding-right: 1rem;
 }
 
 #photos {
@@ -302,6 +303,11 @@ section {
   -ms-grid-column-align: center;
       justify-self: center;
   text-align: center;
+}
+
+#age {
+  font-weight: 400;
+  color: #6b7082;
 }
 
 /**
